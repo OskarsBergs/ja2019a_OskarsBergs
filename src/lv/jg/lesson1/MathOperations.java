@@ -2,7 +2,8 @@ package lv.jg.lesson1;
 
 import java.util.Scanner;
 
-public class Lesson11
+//nekompilējas - jāizlabo kļūdas
+public class Lesson11  //šī rinda ir lieka
 public class MathOperations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
@@ -14,3 +15,4 @@ public class MathOperations {
         double width = scanner.nextInt();
         double area = 2 * ((height + width));
         System.out.println("Area" + area);
+//trūkst beigās aizverošo iekavu gan metodei gan klasei "}"
